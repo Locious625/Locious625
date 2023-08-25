@@ -5,7 +5,7 @@ module.exports = {
     name: "notificationupg",
     aliases: ["notifie", "notijv"],
     version: "1.5",
-    author: "JV Barcenas",
+    author: "Charlie Novan Tinny",
     countDown: 5,
     role: 2,
     shortDescription: {
