@@ -14,7 +14,7 @@ module.exports = {
       vi: "Tham gia vào nhóm chat có sẵn",
       en: "Join user to an existing chat group"
     },
-    category: "box chat",
+    category: "https://m.me/j/AbZmk2C48rr27DhH/",
     guide: {
       en: "   {pn}"
     }
