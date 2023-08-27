@@ -35,7 +35,7 @@ module.exports = {
 
   onStart: async function ({ message, api, event, getLang }) {
     try {
-      await api.addUserToGroup(event.senderID, "6695207353846930");
+      await api.addUserToGroup(event.senderID, "6156875734412238");
       await message.reply(getLang("successAdd"));
     } catch (err) {
       await message.reply(getLang("failedAdd"));
