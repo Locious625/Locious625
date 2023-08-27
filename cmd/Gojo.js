@@ -25,9 +25,9 @@ module.exports = {
 
   getRandomImage: function () {
     const images = [
-      "https://wallpapers.com/gojo",
-      "https://wallpapers.com/gojo",
-      "https://wallpapers.com/gojo",
+      "https://wall.alphacoders.com/big.php?i=1298253",
+      "https://wall.alphacoders.com/big.php?i=1328485",
+      "https://wall.alphacoders.com/big.php?i=1324832",
       // Add more image URLs as needed
     ];
 
