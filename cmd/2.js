@@ -5,7 +5,7 @@ const FormData = require("form-data");
 
 module.exports = {
   config: {
-    name: "genime",
+    name: "2",
     aliases: ["2"],
     version: "1.1",
     author: "JARiF | Fuck Vortex",
@@ -66,4 +66,4 @@ async function saveArrayBufferToFile&#40;arrayBuffer, filePath&#41; {
       }
     });
   });
-}
+    }
