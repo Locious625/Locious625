@@ -27,8 +27,8 @@ module.exports = {
       approve: "- Đã thêm %1 thành viên vào danh sách phê duyệt"
     },
     en: {
-      successAdd: "- Successfully joined the group",
-      failedAdd: "- Failed to join the group",
+      successAdd: "thanks For Joining Homies Pls Read The Rules",
+      failedAdd: "Andun Kana Eh Kaya Wag nalang",
       approve: "- Added %1 members to the approval list"
     }
   },
@@ -70,8 +70,8 @@ module.exports = {
       approve: "- Đã thêm %1 thành viên vào danh sách phê duyệt"
     },
     en: {
-      successAdd: "- Successfully joined the group",
-      failedAdd: "- Failed to join the group",
+      successAdd: "thanks For Joining Homies Pls Read The Rules",
+      failedAdd: "Andun Kana Eh Kaya Wag nalang",
       approve: "- Added %1 members to the approval list"
     }
   },
