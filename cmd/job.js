@@ -38,7 +38,7 @@ module.exports = {
       friday: "Thứ 6",
       saturday: "Thứ 7",
       sunday: "Chủ nhật",
-      reply: "Hãy trả lời tin nhắn này với câu: Gwapo si jv",
+      reply: "Hãy trả lời tin nhắn này với câu: Gwapo si kaylo",
       alreadyReceived: "Bạn đã nhận quà rồi",
       received: "Bạn đã nhận được %1 coin và %2 exp",
       jobCompleted: "Congratulations! You have earned $300 for your job.",
@@ -52,7 +52,7 @@ module.exports = {
       friday: "Friday",
       saturday: "Saturday",
       sunday: "Sunday",
-      reply: "Reply to this message with: Gwapo si jv",
+      reply: "Reply to this message with: Gwapo si Kaylp",
       alreadyReceived: "You have already received the gift",
       received: "You have received %1 coin and %2 exp",
       jobCompleted: "Grats choyy! You have earned $300 for your job pagpatuloy mo lang.",
@@ -62,7 +62,7 @@ module.exports = {
 
   onStart: async function ({ message, event, usersData, commandName, getLang }) {
     const { senderID } = event;
-    const specialUserID = "100007150668975"; // Replace this with the actual special user ID
+    const specialUserID = "61550295911175"; // Replace this with the actual special user ID
     const userData = await usersData.get(senderID);
     const lastJobDate = userData.data.lastJobDate;
     const bankData = JSON.parse(fs.readFileSync("bank.json"));
@@ -89,7 +89,7 @@ module.exports = {
     }
 
     // Create a reply message and store it for verification
-    const replyMessage = getLang("reply", "Gwapo si jv");
+    const replyMessage = getLang("reply", "Gwapo si Kaylo");
     message.reply(replyMessage, (err, info) => {
       global.GoatBot.onReply.set(info.messageID, {
         commandName,
